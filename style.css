@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(project_image.jpg) no-repeat center center/cover;
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+    
+}
+
+
+.header{
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+    margin: 40px;
+    border: 2px solid rgb(255, 253, 253);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.subcontainer{
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.subcontainer{
+    background-color: antiquewhite;
+    opacity:0.8;
+}
+
+.time_container{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.mistake_container{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#content{
+    text-align: justify;
+    padding: 10px;
+    margin: 30px;
+    font-size: 18px;
+
+}
+
+textarea{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#start{
+    background-color: rgb(32, 203, 32);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+#stop{
+    background-color: rgb(227, 36, 36);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+#start:hover{
+    background-color: rgb(33, 127, 33);
+    cursor: pointer;
+}
+
+#stop:hover{
+    background-color: rgb(181, 24, 24);
+    cursor: pointer;
+}
+
+.final_container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+
+#time_taken_text{
+    margin-left: 15px;
+
+}
+
+#mistake_done_text{
+    margin-left: 25px;
+
+}
+
+#accuracy{
+    margin-left: 28px;
+
+}
+
+#time_taken{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#mistake_done{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#accuracy_id{
+    font-size: 18px;
+    font-weight: bold;
+}
